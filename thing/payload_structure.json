@@ -1,0 +1,22 @@
+{
+    "type": "email|webhook",
+    "webhook_payload": {
+        "type": "",
+        "resource": "",
+        "object": {}
+    },
+    "email_payload": {
+        "template": "",
+        "properties": {},
+        "subject": ""
+    },
+    "sender": {
+        "name": "payments",
+        "id": "sender_identifier"
+    },
+    "receiver": {
+        "email": "email@email.com",
+        "url": "http://localhost:3000"
+    },
+    "timestamp": ""
+}
